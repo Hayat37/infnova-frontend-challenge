@@ -31,7 +31,7 @@
   color: #666;
 }
 
-/* LINE AFTER INSTRUCTOR */
+
 .divider {
   height: 1px;
   background: #eee;
@@ -50,7 +50,6 @@
   font-weight: bold;
 }
 
-/* LEVEL BADGE */
 .card-image-container {
   position: relative;
 }

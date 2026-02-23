@@ -7,12 +7,12 @@ function CourseDetails() {
     <>
       <Header />
 
-      {/* BACK LINK */}
+  
       <div className="back-link">
         ← Back to Courses
       </div>
 
-      {/* HERO SECTION */}
+      
       <section className="details-hero">
         <div className="hero-left">
           <p className="course-category">CLOUD COMPUTING</p>
@@ -36,17 +36,16 @@ function CourseDetails() {
         </div>
 
         <div className="hero-right">
-          <img src="src/assets/Screenshot 2026-02-23 12.57.56 PM.png" alt="AWS Course" />
+          <img src="/assets/Screenshot 2026-02-23 12.57.56 PM.png" alt="AWS Course" />
         </div>
       </section>
 
-      {/* MAIN CONTENT */}
       <div className="details-container">
 
-        {/* LEFT SIDE */}
+       
         <div className="details-left">
 
-          {/* WHAT YOU'LL LEARN */}
+          
           <div className="card-box">
             <h3>📘 What You'll Learn</h3>
 
@@ -59,7 +58,7 @@ function CourseDetails() {
             </div>
           </div>
 
-          {/* DESCRIPTION */}
+          
           <div className="card-box">
             <h3>Course Description</h3>
             <p>
@@ -75,7 +74,7 @@ function CourseDetails() {
             </p>
           </div>
 
-          {/* INSTRUCTOR */}
+          
           <div className="card-box instructor-card">
             <h3>Your Instructor</h3>
 
@@ -95,7 +94,7 @@ function CourseDetails() {
 
         </div>
 
-        {/* RIGHT SIDE */}
+        
         <div className="details-right">
 
           <div className="enroll-card">

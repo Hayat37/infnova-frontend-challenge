@@ -25,12 +25,12 @@ function CourseCard({
 
           <h3>{title}</h3>
 
-          {/* instructor */}
+          
           <p className="instructor-text">
             Instructor: {instructor}
           </p>
 
-          {/* line under instructor */}
+          
           <hr className="card-divider" />
 
           <div className="card-footer">

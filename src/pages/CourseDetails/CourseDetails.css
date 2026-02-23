@@ -4,7 +4,7 @@
   color: #666;
 }
 
-/* HERO */
+
 .details-hero {
   background: linear-gradient(135deg, #ff4d00, #ff8c00);
   color: white;
@@ -54,7 +54,7 @@
   border-radius: 10px;
 }
 
-/* MAIN LAYOUT */
+
 .details-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -63,7 +63,7 @@
   background: #f5f6f8;
 }
 
-/* CARDS */
+
 .card-box {
   background: white;
   padding: 25px;
@@ -79,7 +79,7 @@
   margin-top: 15px;
 }
 
-/* INSTRUCTOR */
+
 .instructor-info {
   display: flex;
   gap: 15px;
@@ -98,7 +98,7 @@
   font-weight: bold;
 }
 
-/* RIGHT SIDE */
+
 .enroll-card {
   background: white;
   padding: 25px;
@@ -145,7 +145,7 @@
   color: #555;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 900px) {
   .details-container {
     grid-template-columns: 1fr;

@@ -2,7 +2,7 @@
   background: #f5f6f8;
 }
 
-/* HERO */
+
 .hero-section {
   background: linear-gradient(135deg, #ff4d00, #ff8c00);
   color: white;
@@ -19,7 +19,7 @@
   line-height: 1.6;
 }
 
-/* SEARCH BAR */
+
 .filter-section {
   padding: 0 10%;
   margin-top: -35px;
@@ -46,7 +46,7 @@
   font-size: 14px;
 }
 
-/* GRID */
+
 .courses-grid-container {
   padding: 20px 10% 80px;
 }

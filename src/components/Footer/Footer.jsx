@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-top">
-        {/* Wider Column for Brand */}
+        
         <div className="footer-brand">
           <h3>INFNOVA Academy</h3>
           <p>
@@ -13,7 +13,7 @@ function Footer() {
           </p>
         </div>
 
-        {/* Link Columns */}
+        
         <div className="footer-links">
           <h4>Quick Links</h4>
           <p>About Us</p>

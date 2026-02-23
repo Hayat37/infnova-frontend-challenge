@@ -1,7 +1,7 @@
 .footer {
-  background: #0d1b2a; /* Dark navy blue from image */
+  background: #0d1b2a; 
   color: #ffffff;
-  padding: 60px 10% 30px; /* Large side padding to match image */
+  padding: 60px 10% 30px; 
   font-family: 'Inter', sans-serif;
 }
 
@@ -11,9 +11,8 @@
   margin-bottom: 50px;
 }
 
-/* Make the brand column wider */
 .footer-brand {
-  flex: 2; /* Takes twice the space of link columns */
+  flex: 2; 
   max-width: 450px;
 }
 
@@ -26,13 +25,12 @@
 .footer-brand p {
   line-height: 1.6;
   font-size: 14px;
-  color: #b0b0b0; /* Slightly dimmed gray text */
+  color: #b0b0b0; 
 }
 
-/* Style the link columns */
 .footer-links {
   flex: 1;
-  padding-left: 40px; /* Creates spacing between columns */
+  padding-left: 40px; 
 }
 
 .footer-links h4 {
