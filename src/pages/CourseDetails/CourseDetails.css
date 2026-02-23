@@ -1,0 +1,158 @@
+.back-link {
+  padding: 20px 10%;
+  font-size: 14px;
+  color: #666;
+}
+
+/* HERO */
+.details-hero {
+  background: linear-gradient(135deg, #ff4d00, #ff8c00);
+  color: white;
+  padding: 50px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.course-category {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.hero-desc {
+  max-width: 550px;
+  line-height: 1.6;
+}
+
+.hero-stats {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.level-pill {
+  display: inline-block;
+  margin-top: 15px;
+  background: white;
+  color: #ff6a00;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.hero-right img {
+  width: 320px;
+  border-radius: 10px;
+}
+
+/* MAIN LAYOUT */
+.details-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  padding: 40px 10%;
+  background: #f5f6f8;
+}
+
+/* CARDS */
+.card-box {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.learn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 15px;
+}
+
+/* INSTRUCTOR */
+.instructor-info {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.avatar {
+  background: #ff6a00;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* RIGHT SIDE */
+.enroll-card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.enrolled-text {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.enroll-btn {
+  width: 100%;
+  background: #ff6a00;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.wishlist-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+.includes {
+  margin-top: 20px;
+}
+
+.includes ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.includes li {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .details-container {
+    grid-template-columns: 1fr;
+  }
+
+  .details-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,57 @@
+.footer {
+  background: #0d1b2a; /* Dark navy blue from image */
+  color: #ffffff;
+  padding: 60px 10% 30px; /* Large side padding to match image */
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* Make the brand column wider */
+.footer-brand {
+  flex: 2; /* Takes twice the space of link columns */
+  max-width: 450px;
+}
+
+.footer-brand h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.footer-brand p {
+  line-height: 1.6;
+  font-size: 14px;
+  color: #b0b0b0; /* Slightly dimmed gray text */
+}
+
+/* Style the link columns */
+.footer-links {
+  flex: 1;
+  padding-left: 40px; /* Creates spacing between columns */
+}
+
+.footer-links h4 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-links p {
+  font-size: 14px;
+  color: #b0b0b0;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.05); /* Very subtle line */
+  padding-top: 25px;
+  font-size: 13px;
+  color: #666;
+}
